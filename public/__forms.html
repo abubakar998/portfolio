@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head><meta charSet="utf-8" /><title>Form detection</title></head>
+  <body>
+    <!--
+      This file exists solely so Netlify's build-time bot can statically
+      detect the "contact" form (Next.js renders it client-side, so it
+      wouldn't otherwise appear in the static HTML). It is never linked
+      to or shown to visitors.
+    -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
+  </body>
+</html>

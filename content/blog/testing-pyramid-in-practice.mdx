@@ -1,0 +1,24 @@
+---
+title: "The testing pyramid, in practice"
+date: "2026-04-15"
+excerpt: "Notes from automating smoke, regression, and end-to-end suites with Playwright and Cypress on a real production LMS."
+---
+
+Working on test automation for a production Learning Management System taught
+me that the textbook testing pyramid is a starting point, not a rulebook.
+
+On the Absorb LMS project, the highest-leverage tests weren't always the
+lowest-level ones:
+
+- **Smoke suites** caught deployment-breaking issues before they reached QA,
+  and needed to run in minutes, not hours.
+- **Regression suites** carried the most business risk coverage, so investing
+  in stable selectors and retry-safe assertions paid off far more than raw
+  test count.
+- **End-to-end suites** were reserved for the handful of flows that actually
+  span multiple systems — trying to E2E-test everything just made the suite
+  slow and flaky.
+
+Playwright and Cypress each had a role: Playwright's multi-browser support was
+valuable for cross-browser regression, while Cypress's debugging experience
+made it faster to iterate on new UI test cases.

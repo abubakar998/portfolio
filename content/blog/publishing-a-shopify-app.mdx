@@ -1,0 +1,23 @@
+---
+title: "Lessons from publishing a public Shopify app"
+date: "2026-06-01"
+excerpt: "What I learned architecting and shipping a public Shopify app to the App Store, from review requirements to API design."
+---
+
+Publishing a public app on the Shopify App Store is a different discipline than
+building a private integration for a single client. The review process pushes
+you toward stricter API usage, clearer OAuth flows, and more defensive error
+handling than most internal tools ever need.
+
+A few things that made the biggest difference:
+
+- **Respecting API rate limits from day one.** Building retry/backoff logic
+  early avoided painful rewrites later.
+- **Treating uninstall and re-install as first-class flows.** Merchants churn
+  in and out — webhooks need to handle that gracefully.
+- **Keeping the private app codebase and the public app codebase cleanly
+  separated**, even though they shared a lot of business logic.
+
+Shipping the app to the App Store while still maintaining private apps for
+enterprise clients meant designing the core logic to be configuration-driven
+rather than hardcoded per merchant.

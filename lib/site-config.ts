@@ -8,7 +8,7 @@ export const siteConfig = {
     "I build production platforms end-to-end — SaaS products, Shopify apps, and ERP/POS systems — with Python, FastAPI, TypeScript, React, Next.js, and PostgreSQL.",
   description:
     "Portfolio of Abu Bakar Siddique, a software engineer specializing in ERPNext, Shopify, React, and full-stack web development.",
-  url: "https://abubakarsiddique.netlify.app",
+  url: "https://bakar-codes.netlify.app/",
   links: {
     github: "https://github.com/abubakar998",
     linkedin: "https://linkedin.com/in/bakarbuet",

@@ -9,37 +9,29 @@ export const projects: Project[] = [
   {
     title: "Shopify App Store App",
     description:
-      "Led development and publishing of a public Shopify application on the Shopify App Store, alongside private apps for enterprise clients, using the Shopify ecosystem and APIs.",
-    tags: ["Shopify", "Node.js", "React"],
+      "Trustpop, a published Shopify App that adds customizable trust badges and payment icons to any storefront page — no code required.",
+    tags: ["Shopify", "Remix", "Prisma", "PostgreSQL"],
+    link: "https://apps.shopify.com/trustpop"
   },
   {
-    title: "Absorb Learning Management System",
+    title: "Absorb Software",
     description:
-      "Test planning and automation for Absorb Software's LMS (Canada) — designed UI/API test cases and automated smoke, regression, and end-to-end suites.",
+      "UI and API test automation for Absorb's enterprise learning platform — built and maintained smoke, regression, and end-to-end suites.",
     tags: ["Playwright", "Cypress", "QA Automation"],
-  },
-  {
-    title: "Dr. Yahki's AI Assistant",
-    description:
-      "An LLM-powered assistant built with Python, integrating language model capabilities into a conversational product.",
-    tags: ["Python", "LLM"],
-  },
-  {
-    title: "Visitor Management System",
-    description:
-      "A React-based system for managing visitor check-ins and tracking within an organization.",
-    tags: ["React"],
+    link: "https://absorbai.com"
   },
   {
     title: "The Job Wave",
     description:
-      "A full-stack job portal connecting employers and job seekers, built with React and Django.",
-    tags: ["React", "Django"],
+      "A maritime recruitment platform connecting seafaring, offshore, inland-shipping, and shore-based professionals with employers across Western Europe.",
+    tags: ["React", "Django", "PostgreSQL"],
+    link: "https://thejobwave.com"
   },
   {
     title: "Million Challenge",
     description:
-      "A full-stack web platform built with React and Django as part of the Hyper Helios project portfolio.",
-    tags: ["React", "Django"],
+      "A campaign platform for Creator Wizard's Million Sponsorships Challenge — creators log sponsorship pitches and track progress on a public leaderboard.",
+    tags: ["React", "Django", "PostgreSQL"],
+    link: "https://million.creatorwizard.com/"
   },
 ];

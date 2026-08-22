@@ -23,18 +23,16 @@ export const experience: ExperienceEntry[] = [
     company: "Together Initiatives Limited",
     period: "Jul 2022 — Jun 2025",
     bullets: [
-      "Delivered the Absorb Learning Management System for Absorb Software (Canada): test planning, requirement analysis, and UI/API test case design.",
-      "Automated test suites with Playwright and Cypress, executing smoke, regression, and end-to-end coverage.",
-      "Built Dr. Yahki's AI Assistant (Python, LLM) and a React-based Visitor Management System.",
+      "Developing new user-facing features using React.js",
+      "Building reusable components and front-end libraries for future use",
+      "Automated API and UI (Web) test cases using Playwright and Cypress"
     ],
   },
   {
     role: "Full Stack Developer",
     company: "Hyper Helios",
     period: "Oct 2020 — Jun 2022",
-    bullets: [
-      "Built and maintained full-stack applications with React and Django, including The Job Wave job portal and Million Challenge.",
-    ],
+    bullets: ["Built and maintained full-stack applications with React and Django."],
   },
   {
     role: "Data Analyst",

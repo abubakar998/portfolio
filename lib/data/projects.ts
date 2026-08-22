@@ -7,6 +7,20 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Grand Day by Day POS",
+    description:
+      "A point-of-sale and inventory platform deployed for retailer Grand Day by Day — in-store billing, stock control, and back-office reporting.",
+    tags: ["ERPNext", "Frappe", "Python", "JavaScript"],
+    link: "https://gdbdajman.mondaypos.com/"
+  },
+  {
+    title: "Mondaysys ERP",
+    description:
+      "The in-house ERP for Mondaysys Ltd — payroll, leave, and employee records on one side; invoicing, ledgers, and reporting on the other.",
+    tags: ["ERPNext", "Frappe", "Python", "JavaScript"],
+    link: "https://erp.mondaysys.com/"
+  },
+  {
     title: "Shopify App Store App",
     description:
       "Trustpop, a published Shopify App that adds customizable trust badges and payment icons to any storefront page — no code required.",

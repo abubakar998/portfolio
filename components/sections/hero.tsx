@@ -12,7 +12,8 @@ export function Hero() {
         <div className="mt-8 flex flex-wrap gap-4">
           <a
             href={siteConfig.resumePath}
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-accent-foreground transition-opacity hover:opacity-90"
           >
             Download Resume
